@@ -1,5 +1,5 @@
 ﻿
-#EXTINF:-1 tvg-id="AXN.ph"tvg-logo="https://i.postimg.cc/DznVVRbW/dcnrfjn-4763cb55-6830-4ec4-b6de-81491c0b160f.png"group-title="All Channels",AXN
+#EXTINF:-1 tvg-id="AXN.ph"tvg-logo="https://logo.iptveditor.com/axn.png"group-title="All Channels",AXN
 http://170.254.18.106/AXN/index.m3u8
 #EXTINF:-1 tvg-id="CINEMAX.ph"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/1280px-Cinemax_%28Yellow%29.svg.png"group-title="All Channels",CINEMAX
 http://170.254.18.106/CINEMAX/index.m3u8
