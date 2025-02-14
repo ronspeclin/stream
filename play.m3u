@@ -282,7 +282,7 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd
 
-#EXTINF:-1 tvg-name="teleradyo" tvg-logo="https://logo.iptveditor.com/teleradyo.png" group-title="Local", Teleradyo
+#EXTINF:-1 tvg-id="dummy-39" tvg-name="teleradyo" tvg-logo="https://logo.iptveditor.com/teleradyo.png" group-title="Local", Teleradyo
 #KODIPROP:inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=47c093e0c9fd4f80839a0337da3dd876:50547394045b3d047dc7d92f57b5fb33
@@ -338,7 +338,7 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_moonbug_kids_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_france24.mpd
 
-#EXTINF:-1 tvg-name=" abc_australia" tvg-logo="https://logo.iptveditor.com/abc.png" group-title="Local",ABC Australia
+#EXTINF:-1 tvg-id="abc5.us" tvg-name=" abc_australia" tvg-logo="https://logo.iptveditor.com/abc.png" group-title="Local",ABC Australia
 #KODIPROP:inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=389497f9f8584a57b234e27e430e04b7:3b85594c7f88604adf004e45c03511c0
@@ -597,7 +597,7 @@ https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cgnl_nba.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd
 
-#EXTINF:-1 tvg-id="pinoyxtream" tvg-logo="https://logo.iptveditor.com/pinoyxtremechannel.png" group-title="Local",Pinoy Extreme Channel
+#EXTINF:-1 tvg-id="dummy-86" tvg-logo="https://logo.iptveditor.com/pinoyxtremechannel.png" group-title="Local",Pinoy Extreme Channel
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 http://143.44.136.110:6910/001/2/ch00000090990000001098/manifest.mpd?virtualDomain=001.live_hls.zte.com
