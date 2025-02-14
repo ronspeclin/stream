@@ -382,7 +382,7 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_nickelodeon.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd
 
-#EXTINF:-1 tvg-id="ibc13.ph" tvg-name=" ibc13" tvg-logo="https://logo.iptveditor.com/ibc13.png" group-title="Local",IBC 13
+#EXTINF:-1 tvg-id="ibctv13.ph" tvg-name="ibc13" tvg-logo="https://logo.iptveditor.com/ibc13.png" group-title="Local",IBC 13
 #KODIPROP:inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=04e292bc99bd4ccba89e778651914254:ff0a62bdf8920ce453fe680330b563a5
