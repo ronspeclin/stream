@@ -368,13 +368,6 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_buko_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd
 
-#EXTINF:-1 tvg-name=" billiard_tv" tvg-logo="https://logo.iptveditor.com/billiardtv.png" group-title="Local",Billiard TV
-#KODIPROP:inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=cfb5e2b73bef4f3c878f25ab86a7451f:0d6712bf2a84edcc93d001a9613f6fec
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://dcj-ak-livedazn.akamaized.net/dash/dazn-linear-511/stream.mpd
-
 #EXTINF:-1 tvg-id="nickelodeon.ph" tvg-name="nickelodeon" tvg-logo="https://logo.iptveditor.com/nickelodeon.png" group-title="Local",Nickelodeon
 #KODIPROP:inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
