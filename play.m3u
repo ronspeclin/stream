@@ -157,7 +157,7 @@ http://115.146.176.131:80/TimRizal/TimRizal/14
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://ni.bobay.workers.dev/1093/manifest.mpd
 
-#EXTINF:-1 tvg-id="gma.ph" tvg-name="GMA 7 HD" tvg-logo="https://logo.iptveditor.com/gma7.png" group-title="Local", GMA 7 HD
+#EXTINF:-1 tvg-id="gma.ph" tvg-name="GMA 7" tvg-logo="https://logo.iptveditor.com/gma7.png" group-title="Local", GMA 7 HD
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 #KODIPROP:inputstream.adaptive.manifest_type=dash
