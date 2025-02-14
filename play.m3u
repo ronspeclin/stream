@@ -189,6 +189,11 @@ https://d1uf7s78uqso1e.cloudfront.net/out/v1/efa01372657648be830e7c23ff68bea2/in
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 http://143.44.136.110:6910/001/2/ch00000090990000001286/manifest.mpd?virtualDomain=001.live_hls.zte.com
 
+#EXTINF:-1 tvg-id="jeepneytv.ph" tvg-name="jeepneytv" tvg-logo="https://logo.iptveditor.com/jeepneytv.png" group-title="Local",JEEPNEY TV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
+http://143.44.136.113:6910/001/2/ch00000090990000001250/manifest.mpd?virtualDomain=001.live_hls.zte.com
+
 #EXTINF:-1 tvg-id="kbsworld.ph" tvg-name=" kbs_world" tvg-logo="https://logo.iptveditor.com/kbsworld.png" group-title="Local",KBS World
 #KODIPROP:inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
