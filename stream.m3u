@@ -1,27 +1,67 @@
-﻿
+#EXTM3U﻿
 #EXTINF:-1 tvg-id="AXN.ph"tvg-logo="https://logo.iptveditor.com/axn.png"group-title="All Channels",AXN
 http://170.254.18.106/AXN/index.m3u8
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="CINEMAX.ph"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/1280px-Cinemax_%28Yellow%29.svg.png"group-title="All Channels",CINEMAX
 http://170.254.18.106/CINEMAX/index.m3u8
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="Asian.Crush.ph"tvg-logo="https://www.asiancrush.com/images/asiancrush/asiancrush_logo_image.png"group-title="All Channels",Asian Crush
 https://amg01201-cinedigmenterta-asiancrush-cineverse-x701o.amagi.tv/playlist/amg01201-cinedigmenterta-asiancrush-cineverse/playlist.m3u8
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="AMC.ph"tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/amc-logo-black-and-white.png"group-title="All Channels",AMC
 https://5def33c73f084e11a19ca77697d6b413.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_AMCPresents/playlist.m3u8
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="Syfy.ph"tvg-logo="https://logo.iptveditor.com/syfy.png"group-title="All Channels",SYFY
 http://212.102.60.231:80/SYFY/index.m3u8
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="AMCTHRILLER.ph"tvg-logo="https://logo.iptveditor.com/amcthrillers.png"group-title="All Channels",AMC Thriller
 https://amc-rushbyamc-1-us.tablo.wurl.tv/playlist.m3u8
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-id="hbo.ph" tvg-logo="https://logo.iptveditor.com/hbo.png" group-title="All Channels",HBO
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b
 https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd
-#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/694/46/png-clipart-animal-planet-logo-icons-logos-emojis-iconic-brands.png" group-title="All Channels",Animal Planet
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fe0d35dd7f2045e58bfdfeea879a8ae9:6a61e84d6c9147aa68c06d68f1d7b218
-https://atemecdnbalancer-voe.sysln.id/live/eds/AnimalPlanetHD/mpd/AnimalPlanetHD.mpd
-#EXTINF:-1 tvg-id="RadioMontecarlo.it" tvg-chno="772" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiomontecarlotv.png" group-title="All Channels",Radio Montecarlo TV
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/manifest.mpd
