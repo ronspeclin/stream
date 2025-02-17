@@ -156,14 +156,10 @@ http://143.44.136.110:6910/001/2/ch00000090990000001093/manifest.mpd?virtualDoma
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd
 
-#EXTINF:-1 tvg-id="gmalifetv.ph" tvg-name="gmalifetv" tvg-logo="https://logo.iptveditor.com/gmalifetv.png" group-title="Local", GMA Life TV
-#KODIPROP:inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=369bcd591a7e42cea6a829879962ee77:7c0548d4ea14676297c0a36ea0e06301
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://absp-live.akamaized.net/dash/live/2099524/gmalf/manifest.mpd|Referer=https://www.iwanttfc.com/
+#EXTINF:-1 tvg-id="dummy-93" tvg-name="inctv" tvg-logo="https://logo.iptveditor.com/inctv.png" group-title="Local", INC TV
+https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8
 
-#EXTINF:-1 tvg-id="alltv.ph" tvg-name="alltv" tvg-logo="https://logo.iptveditor.com/alltv.png" group-title="Local", ALL TV
+#EXTINF:-1 tvg-id="dummy-91" tvg-name="alltv" tvg-logo="https://logo.iptveditor.com/alltv.png" group-title="Local", ALL TV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 #KODIPROP:inputstream.adaptive.manifest_type=dash
