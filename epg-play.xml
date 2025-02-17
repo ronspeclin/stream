@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version V5.1.5.0 -- Jan van Straaten" site="cignalplay.com">
-<site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version V5.0.1.1 -- Jan van Straaten" site="clickthecity.com">
+<site generator-info-name="WebGrabPlus; REX Postprocess -- version V5.1.5.0 -- Jan van Straaten" site="cignalplay.com">
+<site generator-info-name="WebGrabPlus; REX Postprocess -- version V5.0.1.1 -- Jan van Straaten" site="clickthecity.com">
   <channels>
     <channel update="i" site="cignalplay.com" site_id="44B03994-C303-4ACE-997C-91CAC493D0FC" xmltv_id="Rptv">Rptv</channel>
     <channel update="i" site="cignalplay.com" site_id="68C2D95A-A2A4-4C2B-93BE-41893C61210C" xmltv_id="Cg Hitsnow">Cg Hitsnow</channel>
@@ -105,7 +105,7 @@
     <channel update="i" site="clickthecity.com" site_id="139" xmltv_id="MYX">MYX</channel>
     <channel update="i" site="clickthecity.com" site_id="66" xmltv_id="Metro Channel">Metro Channel</channel>
     <channel update="i" site="clickthecity.com" site_id="78" xmltv_id="Nickelodeon">Nickelodeon</channel>
-    <channel update="i" site="clickthecity.com" site_id="142" xmltv_id="PBO">PBO</channel>
+    <channel update="i" site="clickthecity.com" site_id="142" xmltv_id="pbo.ph">PBO</channel>
     <channel update="i" site="clickthecity.com" site_id="178" xmltv_id="Tagalized Movie Channel">Tagalized Movie Channel</channel>
     <channel update="i" site="clickthecity.com" site_id="160" xmltv_id="Telenovela Channel">Telenovela Channel</channel>
     <channel update="i" site="clickthecity.com" site_id="155" xmltv_id="VIVA Cinema">VIVA Cinema</channel>
