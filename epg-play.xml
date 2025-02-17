@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version V5.1.5.0 -- Jan van Straaten" site="cignalplay.com">
-<site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version 1.1.1/33 -- Jan van Straaten" site="skycable.com">
 <site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version V5.0.1.1 -- Jan van Straaten" site="clickthecity.com">
   <channels>
     <channel update="i" site="cignalplay.com" site_id="44B03994-C303-4ACE-997C-91CAC493D0FC" xmltv_id="Rptv">Rptv</channel>
