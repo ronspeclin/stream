@@ -76,7 +76,7 @@ https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd
 
-#EXTINF:-1 tvg-id="tvnmovie.ph" tvg-name=" cg_tvnpre" tvg-logo="https://logo.iptveditor.com/tvn.png" group-title="Local",TVN
+#EXTINF:-1 tvg-id="tvnpre.ph" tvg-name=" cg_tvnpre" tvg-logo="https://logo.iptveditor.com/tvn.png" group-title="Local",TVN
 #KODIPROP:inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=e1bde543e8a140b38d3f84ace746553e:b712c4ec307300043333a6899a402c10
@@ -89,13 +89,6 @@ https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd
 #KODIPROP:inputstream.adaptive.license_key=6aab8f40536f4ea98e7c97b8f3aa7d4e:139aa5a55ade471faaddacc4f4de8807
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_mptv.mpd
-
-#EXTINF:-1 tvg-id="usa.us" tvg-name="usa" tvg-logo="https://logo.iptveditor.com/network.png" group-title="Local", USA Network
-#KODIPROP:inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=882c9f5613b43b47adc70aa968a308ce:de534ef8914bfe62ba3cdd6bdb9e1c04
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd
 
 #EXTINF:-1 tvg-id="a2z.ph" tvg-name="a2z" tvg-logo="https://logo.iptveditor.com/a2z.png" group-title="Local",A2Z
 #KODIPROP:inputstream.adaptive
@@ -121,7 +114,7 @@ https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd
 #EXTINF:-1 tvg-id="tapedge.ph" tvg-name=" tap_edge" tvg-logo="https://logo.iptveditor.com/tapedge.png" group-title="Local",Tap Edge
 #KODIPROP:inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0f854034412b11edb8780242ac120002:af8ad1c5e3f2e1b751a4f64608f24275
+#KODIPROP:inputstream.adaptive.license_key=4553f7e8011f411fb625cefc39274300:98f2f1d153367e84b5d559dc9dfb9a35
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_tapedge.mpd
 
@@ -181,6 +174,13 @@ https://d1uf7s78uqso1e.cloudfront.net/out/v1/efa01372657648be830e7c23ff68bea2/in
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 http://143.44.136.110:6910/001/2/ch00000090990000001286/manifest.mpd?virtualDomain=001.live_hls.zte.com
+
+#EXTINF:-1 tvg-id="tfc.ph" tvg-name="tfcasia" tvg-logo="https://logo.iptveditor.com/tfc.png" group-title="Local", TFC Asia
+#KODIPROP:inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=9568cc84e1d944f38eac304517eab6fd:f12142af8f39b3bab79d3679d3665ebe
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+https://d1facupi3cod3q.cloudfront.net/out/v1/e3633f8591e248b0af1af15a474bfa4a/index.mpd
 
 #EXTINF:-1 tvg-id="jeepneytv.ph" tvg-name="jeepneytv" tvg-logo="https://logo.iptveditor.com/jeepneytv.png" group-title="Local",JEEPNEY TV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -287,7 +287,7 @@ https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/bloomberg_sd.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=47c093e0c9fd4f80839a0337da3dd876:50547394045b3d047dc7d92f57b5fb33
 #KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbnono/index.mpd
+https://d14c00opfjb50c.cloudfront.net/out/v1/0fa4eb67579d41cca4ed146c93aa855f/index.mpd
 
 #EXTINF:-1 tvg-id="onesports.ph" tvg-name=" onesports" tvg-logo="https://logo.iptveditor.com/onesports.png" group-title="Local", One Sports
 #KODIPROP:inputstream.adaptive
@@ -350,7 +350,7 @@ https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/dr_abc_aus.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=4bbdc78024a54662854b412d01fafa16:6039ec9b213aca913821677a28bd78ae
 #KODIPROP:inputstream.adaptive.manifest_type=dash
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-anc-global-dash-abscbnono/index.mpd
+https://d3cjss68xc4sia.cloudfront.net/out/v1/89ea8db23cb24a91bfa5d0795f8d759e/index.mpd
 
 #EXTINF:-1 tvg-id="buko.ph" tvg-name="buko" tvg-logo="https://logo.iptveditor.com/buko.png" group-title="Local",Buko
 #KODIPROP:inputstream.adaptive
