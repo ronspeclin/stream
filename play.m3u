@@ -106,6 +106,10 @@ https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd
 https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd
 
 
+#EXTINF:-1 tvg-id="tvnpre.ph" tvg-name=" cg_tvnpre" tvg-logo="https://logo.iptveditor.com/tvn.png" group-title="Local",TVN 2
+https://dice-live-ap.akamaized.net/hls/live/2001887/274550-280784/exchange274550dbvoh_274550_4500/chunklist.m3u8?hdntl=exp=1739991445~acl=%2f*~id=b1cd687b-60b7-46ba-bd8c-8965011d80b2~data=hdntl,dWlkPUJyc1JNSHw4ZmQwNTdhZi0zNzIzLTQwNGItOWNkNS00NmJjMDYzN2Q1ZTgmaXA9MTIwLjI5Ljc5LjIwNCZleHA9MTczOTk5MTQ3NSZlaWQ9Mjc0NTUwJmNpZD1kY2UudGFwZ28mb2lkPTMyNSZ0eXBlPUxJVkU~hmac=5afc835ad561de897dab422a6927d3f11e86d546d245da161d311e69e673224c
+
+
 
 #EXTINF:-1 tvg-id="mptv.ph" tvg-name=" cg_mptv" tvg-logo="https://logo.iptveditor.com/mediapilipinastv.png" group-title="Local",Media Pilipinas TV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -733,6 +737,11 @@ https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/asianfoodnetwork_sd.mpd
 #KODIPROP:inputstream.adaptive.license_key=bab5c11178b646749fbae87962bf5113:0ac679aad3b9d619ac39ad634ec76bc8
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nickjr.mpd
+
+
+
+#EXTINF:-1 tvg-id="nickjr.ph" tvg-name=" nickjr" tvg-logo="https://logo.iptveditor.com/nickjr.png" group-title="Local",Nick Jr 2
+https://dice-live-ap.akamaized.net/hls/live/2102476/226987-277142/exchange226987evppu_226987_4500/chunklist.m3u8?hdntl=exp=1739991830~acl=%2f*~id=ea464ae7-272a-4f99-ac9c-7c60e78f3bee~data=hdntl,dWlkPUJyc1JNSHw4ZmQwNTdhZi0zNzIzLTQwNGItOWNkNS00NmJjMDYzN2Q1ZTgmaXA9MTIwLjI5Ljc5LjIwNCZleHA9MTczOTk5MTg2MCZlaWQ9MjI2OTg3JmNpZD1kY2UudGFwZ28mb2lkPTMyNSZ0eXBlPUxJVkU~hmac=e3c47070c0a4755f12ec008435614599c3d845257a1536bab5f20c4d61486285
 
 
 
