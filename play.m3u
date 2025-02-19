@@ -737,7 +737,7 @@ http://143.44.136.113:6910/001/2/ch00000090990000001078/manifest.mpd?virtualDoma
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=07aa813bf2c147748046edd930f7736e:3bd6688b8b44e96201e753224adfc8fb
 #KODIPROP:inputstream.adaptive.manifest_type=dash
-https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd
+https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/viva_sd.mpd
 
 
 
