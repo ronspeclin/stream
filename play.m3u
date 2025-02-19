@@ -868,6 +868,14 @@ https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd
 
 
 
+#EXTINF:-1 tvg-id="cgnlnba.ph" tvg-name="cgnlnbaph2" tvg-logo="https://logo.iptveditor.com/nbatv.png" group-title="Local",NBA TV Philippines (CON)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
+http://143.44.136.113:6910/001/2/ch00000090990000001064/manifest.mpd?virtualDomain=001.live_hls.zte.com
+
+
+
 #EXTINF:-1 tvg-id="dummy-86" tvg-logo="https://logo.iptveditor.com/pinoyxtremechannel.png" group-title="Local",Pinoy Extreme Channel (CON)
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
