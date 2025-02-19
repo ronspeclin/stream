@@ -850,21 +850,12 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tech_storm.mpd
 
 
 
-#EXTINF:-1 tvg-id="cgnlnba.ph" tvg-name="cgnlnbaph" tvg-logo="https://logo.iptveditor.com/nbatv.png" group-title="Local",NBA TV Philippines 1
+#EXTINF:-1 tvg-id="cgnlnba.ph" tvg-name="cgnlnbaph" tvg-logo="https://logo.iptveditor.com/nbatv.png" group-title="Local",NBA TV Philippines
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=c5e51f41ceac48709d0bdcd9c13a4d88:20b91609967e472c27040716ef6a8b9a
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/cgnl_nba.mpd
-
-
-
-#EXTINF:-1 tvg-id="cgnlnba.ph" tvg-name="cgnlnbaph2" tvg-logo="https://logo.iptveditor.com/nbatv.png" group-title="Local",NBA TV Philippines 2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f36eed9e95f140fabbc88a08abbeafff:0125600d0eb13359c28bdab4a2ebe75a
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd
 
 
 
