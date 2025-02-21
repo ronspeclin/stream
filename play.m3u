@@ -901,7 +901,8 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5097/default_primary.mpd
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-# Original: https://aseanic.github.io/hls/107.m3u8
+# Original: # Original: https://aseanic.github.io/hls/107.m3u8
+http://45.159.93.14:8080/live/144264/661943/22111.m3u8
 http://45.159.93.14:8080/live/144264/661943/22111.m3u8
 
 
@@ -910,7 +911,8 @@ http://45.159.93.14:8080/live/144264/661943/22111.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-# Original: https://aseanic.github.io/hls/108.m3u8
+# Original: # Original: https://aseanic.github.io/hls/108.m3u8
+http://45.159.93.14:8080/live/144264/661943/22123.m3u8
 http://45.159.93.14:8080/live/144264/661943/22123.m3u8
 
 
@@ -919,7 +921,8 @@ http://45.159.93.14:8080/live/144264/661943/22123.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-# Original: https://aseanic.github.io/hls/109.m3u8
+# Original: # Original: https://aseanic.github.io/hls/109.m3u8
+http://45.159.93.14:8080/live/144264/661943/22125.m3u8
 http://45.159.93.14:8080/live/144264/661943/22125.m3u8
 
 
@@ -928,7 +931,8 @@ http://45.159.93.14:8080/live/144264/661943/22125.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-# Original: https://aseanic.github.io/hls/110.m3u8
+# Original: # Original: https://aseanic.github.io/hls/110.m3u8
+http://45.159.93.14:8080/live/144264/661943/22148.m3u8
 http://45.159.93.14:8080/live/144264/661943/22148.m3u8
 
 
@@ -987,7 +991,8 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/501/default_primary.mpd
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-# Original: https://aseanic.github.io/hls/98.m3u8
+# Original: # Original: https://aseanic.github.io/hls/98.m3u8
+http://45.159.93.14:8080/live/144264/661943/22145.m3u8
 http://45.159.93.14:8080/live/144264/661943/22145.m3u8
 
 
@@ -996,7 +1001,8 @@ http://45.159.93.14:8080/live/144264/661943/22145.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-# Original: https://aseanic.github.io/hls/99.m3u8
+# Original: # Original: https://aseanic.github.io/hls/99.m3u8
+http://45.159.93.14:8080/live/144264/661943/22076.m3u8
 http://45.159.93.14:8080/live/144264/661943/22076.m3u8
 
 
@@ -1005,7 +1011,8 @@ http://45.159.93.14:8080/live/144264/661943/22076.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-# Original: https://aseanic.github.io/hls/100.m3u8
+# Original: # Original: https://aseanic.github.io/hls/100.m3u8
+http://45.159.93.14:8080/live/144264/661943/22075.m3u8
 http://45.159.93.14:8080/live/144264/661943/22075.m3u8
 
 
@@ -1014,7 +1021,8 @@ http://45.159.93.14:8080/live/144264/661943/22075.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-# Original: https://aseanic.github.io/hls/119.m3u8
+# Original: # Original: https://aseanic.github.io/hls/119.m3u8
+http://45.159.93.14:8080/live/144264/661943/22946.m3u8
 http://45.159.93.14:8080/live/144264/661943/22946.m3u8
 
 
@@ -1023,7 +1031,8 @@ http://45.159.93.14:8080/live/144264/661943/22946.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-# Original: https://aseanic.github.io/hls/186.m3u8
+# Original: # Original: https://aseanic.github.io/hls/186.m3u8
+http://45.159.93.14:8080/live/144264/661943/22185.m3u8
 http://45.159.93.14:8080/live/144264/661943/22185.m3u8
 
 
@@ -1032,7 +1041,8 @@ http://45.159.93.14:8080/live/144264/661943/22185.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-https://aseanic.github.io/hls/116.m3u8
+# Original: https://aseanic.github.io/hls/116.m3u8
+http://45.159.93.14:8080/live/144264/661943/22906.m3u8
 
 
 
@@ -1040,7 +1050,8 @@ https://aseanic.github.io/hls/116.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-https://aseanic.github.io/hls/117.m3u8
+# Original: https://aseanic.github.io/hls/117.m3u8
+http://45.159.93.14:8080/live/144264/661943/22081.m3u8
 
 
 
@@ -1048,7 +1059,8 @@ https://aseanic.github.io/hls/117.m3u8
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-https://aseanic.github.io/hls/118.m3u8
+# Original: https://aseanic.github.io/hls/118.m3u8
+http://45.159.93.14:8080/live/144264/661943/22065.m3u8
 
 
 
@@ -1065,4 +1077,5 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5014/default_primary.mpd
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
-https://aseanic.github.io/hls/220.m3u8
+# Original: https://aseanic.github.io/hls/220.m3u8
+http://45.159.93.14:8080/live/144264/661943/13752.m3u8
