@@ -220,6 +220,17 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-ab
 
 
 
+#EXTINF:-1 tvg-id="GMA.ph" tvg-name="GMA Pinoy TV" tvg-logo="https://logo.iptveditor.com/gma7.png" group-title="Local", GMA Pinoy TV (Direct)
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c95ed4c44b0b4f7fa1c6ebbbbaab21a1:47635b8e885e19f2ccbdff078c207058
+https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd
+
+
+
 #EXTINF:-1 tvg-id="dummy-93" tvg-name="inctv" tvg-logo="https://logo.iptveditor.com/inctv.png" group-title="Local", INC TV
 https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8
 
@@ -989,3 +1000,19 @@ https://aseanic.github.io/hls/99.m3u8
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
 https://aseanic.github.io/hls/100.m3u8
+
+
+
+#EXTINF:-1 tvg-id="syfy.us" tvg-logo="https://pictr.com/images/2025/02/02/xGxoGq.jpg" group-title="Local",Syfy
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/vnd.apple.mpegurl
+#KODIPROP:inputstream=inputstream.adaptive
+https://aseanic.github.io/hls/119.m3u8
+
+
+
+#EXTINF:-1 tvg-id="wwenetwork.us" tvg-logo="https://pictr.com/images/2025/01/20/xppcUD.png" group-title="Local",WWE Network
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/vnd.apple.mpegurl
+#KODIPROP:inputstream=inputstream.adaptive
+https://aseanic.github.io/hls/186.m3u8
