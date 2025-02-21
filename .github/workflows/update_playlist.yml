@@ -47,38 +47,44 @@ jobs:
 
               updated_content = []
               changes_made = False
-              skip_next_line = False
+              i = 0
               
-              for i, line in enumerate(playlist_content):
-                  if skip_next_line:
-                      skip_next_line = False
-                      continue
-                      
-                  # If this is already an "Original" comment, skip this iteration
-                  if line.strip().startswith('# Original:'):
-                      continue
-                      
-                  if 'aseanic.github.io/hls/' in line:
-                      # Extract m3u8 file number
+              while i < len(playlist_content):
+                  line = playlist_content[i]
+                  
+                  # Case 1: Line is an Original comment
+                  if line.strip().startswith('# Original:') and 'aseanic.github.io/hls/' in line:
+                      # Get the m3u8 number from the Original line
                       m3u8_number = line.strip().split('/')[-1].split('.')[0]
                       aseanic_file = f'aseanic-repo/hls/{m3u8_number}.m3u8'
                       
                       if os.path.exists(aseanic_file):
                           new_url = extract_m3u8_url(aseanic_file)
                           if new_url:
-                              # Keep the original line as a comment
+                              # Keep the Original comment and update the URL
+                              updated_content.append(line)  # Keep original comment
+                              updated_content.append(f'{new_url}\n')
+                              changes_made = True
+                              i += 2  # Skip the next line (old URL)
+                              continue
+                  
+                  # Case 2: Direct aseanic URL
+                  elif 'aseanic.github.io/hls/' in line:
+                      m3u8_number = line.strip().split('/')[-1].split('.')[0]
+                      aseanic_file = f'aseanic-repo/hls/{m3u8_number}.m3u8'
+                      
+                      if os.path.exists(aseanic_file):
+                          new_url = extract_m3u8_url(aseanic_file)
+                          if new_url:
+                              # Convert to Original + URL format
                               updated_content.append(f'# Original: {line.strip()}\n')
                               updated_content.append(f'{new_url}\n')
                               changes_made = True
-                              # Skip the next line if it's a URL (to prevent duplication)
-                              if i + 1 < len(playlist_content) and playlist_content[i + 1].strip().startswith('http'):
-                                  skip_next_line = True
-                          else:
-                              updated_content.append(line)
-                      else:
-                          updated_content.append(line)
-                  else:
-                      updated_content.append(line)
+                              i += 1
+                              continue
+                  
+                  updated_content.append(line)
+                  i += 1
 
               if changes_made:
                   # Write the updated content back to the file
