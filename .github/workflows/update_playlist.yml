@@ -16,7 +16,7 @@ jobs:
       - name: Checkout aseanic repository
         uses: actions/checkout@v3
         with:
-          repository: aseanic/hls
+          repository: aseanic/aseanic.github.io
           path: aseanic-repo
 
       - name: Set up Python
@@ -46,13 +46,13 @@ jobs:
                   playlist_content = file.readlines()
 
               updated_content = []
-              current_m3u8 = None
+              changes_made = False
 
               for line in playlist_content:
                   if 'aseanic.github.io/hls/' in line:
                       # Extract m3u8 file number
                       m3u8_number = line.strip().split('/')[-1].split('.')[0]
-                      aseanic_file = f'aseanic-repo/{m3u8_number}.m3u8'
+                      aseanic_file = f'aseanic-repo/hls/{m3u8_number}.m3u8'
                       
                       if os.path.exists(aseanic_file):
                           new_url = extract_m3u8_url(aseanic_file)
@@ -60,6 +60,7 @@ jobs:
                               # Keep the original line as a comment
                               updated_content.append(f'# Original: {line.strip()}\n')
                               updated_content.append(f'{new_url}\n')
+                              changes_made = True
                           else:
                               updated_content.append(line)
                       else:
@@ -67,9 +68,12 @@ jobs:
                   else:
                       updated_content.append(line)
 
-              # Write the updated content back to the file
-              with open('main-repo/play.m3u', 'w') as file:
-                  file.writelines(updated_content)
+              if changes_made:
+                  # Write the updated content back to the file
+                  with open('main-repo/play.m3u', 'w') as file:
+                      file.writelines(updated_content)
+                  return True
+              return False
 
           if __name__ == '__main__':
               update_playlist()
