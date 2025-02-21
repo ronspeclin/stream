@@ -897,7 +897,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5097/default_primary.mpd
 
 
 
-#EXTINF:-1 tvg-id="investigationdiscovery.us" tvg-logo="https://pictr.com/images/2025/02/02/xGxVG8.jpg" group-title="Local",Investigation Discovery (US)
+#EXTINF:-1 tvg-id="investigationdiscovery.us" tvg-logo="https://logo.iptveditor.com/investigationdiscovery.png" group-title="Local",Investigation Discovery (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
@@ -906,7 +906,7 @@ http://45.159.93.14:8080/live/144264/661943/22111.m3u8
 
 
 
-#EXTINF:-1 tvg-id="nationalgeographic.us" tvg-logo="https://pictr.com/images/2025/02/02/xGxhCx.jpg" group-title="Local",NatGeo (US)
+#EXTINF:-1 tvg-id="nationalgeographic.us" tvg-logo="https://logo.iptveditor.com/beinnatgeo.png" group-title="Local",NatGeo (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
@@ -915,7 +915,7 @@ http://45.159.93.14:8080/live/144264/661943/22123.m3u8
 
 
 
-#EXTINF:-1 tvg-id="natgeowild.us" tvg-logo="https://pictr.com/images/2025/02/02/xGxn3v.jpg" group-title="Local", NatGeo Wild (US)
+#EXTINF:-1 tvg-id="natgeowild.us" tvg-logo="https://logo.iptveditor.com/mynatgeowildhevc.png" group-title="Local", NatGeo Wild (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
@@ -924,7 +924,7 @@ http://45.159.93.14:8080/live/144264/661943/22125.m3u8
 
 
 
-#EXTINF:-1 tvg-id="smithsonianchannel.us" tvg-logo="https://pictr.com/images/2025/02/02/xGxYkQ.jpg" group-title="Local", Smithsonian (US)
+#EXTINF:-1 tvg-id="smithsonianchannel.us" tvg-logo="https://logo.iptveditor.com/smithsonian.png" group-title="Local", Smithsonian (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
@@ -933,7 +933,7 @@ http://45.159.93.14:8080/live/144264/661943/22148.m3u8
 
 
 
-#EXTINF:-1 tvg-id="history.us" tvg-logo="https://pictr.com/images/2025/01/14/x12o6c.png" group-title="Local",History (US)
+#EXTINF:-1 tvg-id="history.us" tvg-logo="https://logo.iptveditor.com/history.png" group-title="Local",History (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
@@ -943,7 +943,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/604/default_primary.mpd
 
 
 
-#EXTINF:-1 tvg-id="animalplanet.us" tvg-logo="https://pictr.com/images/2025/01/14/x12AbG.png" group-title="Local",Animal Planet (US)
+#EXTINF:-1 tvg-id="animalplanet.us" tvg-logo="https://logo.iptveditor.com/animalplanet.png" group-title="Local",Animal Planet (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
@@ -953,7 +953,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2710/default_primary.mpd
 
 
 
-#EXTINF:-1 tvg-id="crime+investigation.us" tvg-logo="https://pictr.com/images/2025/01/14/x12W9P.png" group-title="Local",Crime + Investigation (US)
+#EXTINF:-1 tvg-id="crime+investigation.us" tvg-logo="https://logo.iptveditor.com/crimeinvestigation.png" group-title="Local",Crime + Investigation (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
@@ -963,7 +963,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2111/default_primary.mpd
 
 
 
-#EXTINF:-1 tvg-id="discoverychannel.us" tvg-logo="https://pictr.com/images/2023/07/24/EbLDYf.png" group-title="Local",Discovery Channel (US)
+#EXTINF:-1 tvg-id="discoverychannel.us" tvg-logo="https://logo.iptveditor.com/discoverychannel.png" group-title="Local",Discovery Channel (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
@@ -973,7 +973,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2510/default_primary.mpd
 
 
 
-#EXTINF:-1 tvg-id="discoveryasia.ph" tvg-logo="https://pictr.com/images/2023/07/24/EbV0E9.png" group-title="Local",Discovery Asia (US)
+#EXTINF:-1 tvg-id="discoveryasia.ph" tvg-logo="https://logo.iptveditor.com/discoveryasia.png" group-title="Local",Discovery Asia (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
@@ -983,7 +983,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/501/default_primary.mpd
 
 
 
-#EXTINF:-1 tvg-id="discoveryscience.us"  tvg-logo="https://pictr.com/images/2025/02/02/xGxii2.jpg" group-title="Local",Discovery Science (US)
+#EXTINF:-1 tvg-id="discoveryscience.us"  tvg-logo="https://logo.iptveditor.com/discoveryscience.png" group-title="Local",Discovery Science (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
@@ -992,7 +992,7 @@ http://45.159.93.14:8080/live/144264/661943/22145.m3u8
 
 
 
-#EXTINF:-1 tvg-id="discoveryfamily.us" tvg-logo="https://pictr.com/images/2025/02/02/xGxza9.jpg" group-title="Local",Discovery Family (US)
+#EXTINF:-1 tvg-id="discoveryfamily.us" tvg-logo="https://logo.iptveditor.com/discoveryfamily.png" group-title="Local",Discovery Family (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1001,7 +1001,7 @@ http://45.159.93.14:8080/live/144264/661943/22076.m3u8
 
 
 
-#EXTINF:-1 tvg-id="discoverylife.us" tvg-logo="https://pictr.com/images/2025/02/02/xGxpFg.png" group-title="Local",Discovery Life (US)
+#EXTINF:-1 tvg-id="discoverylife.us" tvg-logo="https://logo.iptveditor.com/discoverylife.png" group-title="Local",Discovery Life (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1010,7 +1010,7 @@ http://45.159.93.14:8080/live/144264/661943/22075.m3u8
 
 
 
-#EXTINF:-1 tvg-id="syfy.us" tvg-logo="https://pictr.com/images/2025/02/02/xGxoGq.jpg" group-title="Local",Syfy
+#EXTINF:-1 tvg-id="syfy.us" tvg-logo="https://logo.iptveditor.com/syfy.png" group-title="Local",Syfy
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1019,7 +1019,7 @@ http://45.159.93.14:8080/live/144264/661943/22946.m3u8
 
 
 
-#EXTINF:-1 tvg-id="wwenetwork.us" tvg-logo="https://pictr.com/images/2025/01/20/xppcUD.png" group-title="Local",WWE Network
+#EXTINF:-1 tvg-id="wwenetwork.us" tvg-logo="https://logo.iptveditor.com/wwenetwork.png" group-title="Local",WWE Network
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/vnd.apple.mpegurl
 #KODIPROP:inputstream=inputstream.adaptive
