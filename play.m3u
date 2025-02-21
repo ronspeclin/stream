@@ -844,7 +844,7 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd
 
 
 
-#EXTINF:-1 tvg-id="crimeinvestigation.ph" tvg-name=" crime_investigation" tvg-logo="https://logo.iptveditor.com/crimeinvestigation.png" group-title="Local",Crime Investigation
+#EXTINF:-1 tvg-id="crimeandinvestigation.ph" tvg-name=" crime_investigation" tvg-logo="https://logo.iptveditor.com/crimeinvestigation.png" group-title="Local",Crime Investigation
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=21e2843b561c4248b8ea487986a16d33:db6bb638ccdfc1ad1a3e98d728486801
@@ -933,7 +933,7 @@ http://45.159.93.14:8080/live/144264/661943/22148.m3u8
 
 
 
-#EXTINF:-1 tvg-id="history.us" tvg-logo="https://logo.iptveditor.com/history.png" group-title="Local",History (US)
+#EXTINF:-1 tvg-id="history.ph" tvg-logo="https://logo.iptveditor.com/history.png" group-title="Local",History (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
@@ -943,7 +943,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/604/default_primary.mpd
 
 
 
-#EXTINF:-1 tvg-id="animalplanet.us" tvg-logo="https://logo.iptveditor.com/animalplanet.png" group-title="Local",Animal Planet (US)
+#EXTINF:-1 tvg-id="animalplanet.ph" tvg-logo="https://logo.iptveditor.com/animalplanet.png" group-title="Local",Animal Planet (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
@@ -953,7 +953,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2710/default_primary.mpd
 
 
 
-#EXTINF:-1 tvg-id="crime+investigation.us" tvg-logo="https://logo.iptveditor.com/crimeinvestigation.png" group-title="Local",Crime + Investigation (US)
+#EXTINF:-1 tvg-id="crimeandinvestigation.ph" tvg-logo="https://logo.iptveditor.com/crimeinvestigation.png" group-title="Local",Crime + Investigation (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
@@ -963,7 +963,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2111/default_primary.mpd
 
 
 
-#EXTINF:-1 tvg-id="discoverychannel.us" tvg-logo="https://logo.iptveditor.com/discoverychannel.png" group-title="Local",Discovery Channel (US)
+#EXTINF:-1 tvg-id="discoverychannel.ph" tvg-logo="https://logo.iptveditor.com/discoverychannel.png" group-title="Local",Discovery Channel (US)
 #KODIPROP:contentlookup=False
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1025,3 +1025,44 @@ http://45.159.93.14:8080/live/144264/661943/22946.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 # Original: https://aseanic.github.io/hls/186.m3u8
 http://45.159.93.14:8080/live/144264/661943/22185.m3u8
+
+
+
+#EXTINF:-1 tvg-id="paramountnetwork.us" tvg-logo="https://logo.iptveditor.com/paramountchannel.png" group-title="Local",Paramount Channel (US)
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/vnd.apple.mpegurl
+#KODIPROP:inputstream=inputstream.adaptive
+https://aseanic.github.io/hls/116.m3u8
+
+
+
+#EXTINF:-1 tvg-id="e!entertainment.us" tvg-logo="https://logo.iptveditor.com/e.png" group-title="Local",E! (US)
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/vnd.apple.mpegurl
+#KODIPROP:inputstream=inputstream.adaptive
+https://aseanic.github.io/hls/117.m3u8
+
+
+
+#EXTINF:-1 tvg-id="comedycentral.us" tvg-logo="https://logo.iptveditor.com/comedycentral.png" group-title="Local",Comedy Central
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/vnd.apple.mpegurl
+#KODIPROP:inputstream=inputstream.adaptive
+https://aseanic.github.io/hls/118.m3u8
+
+
+
+#EXTINF:-1 tvg-id="mtvasia.ph" tvg-id="MTVAsia" tvg-logo="https://logo.iptveditor.com/mtvlive.png" group-title="Local",MTV Asia
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.drm_legacy=org.w3.clearkey|3ac2542a4f7be746633db07647451710:22f964a6d6927ccdba482e775cdff190
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5014/default_primary.mpd
+
+
+
+#EXTINF:-1 tvg-id="mtvlive.ph" tvg-logo="https://logo.iptveditor.com/mtvlive.png" group-title="Local",MTV Live (US)
+#KODIPROP:contentlookup=False
+#KODIPROP:mimetype=application/vnd.apple.mpegurl
+#KODIPROP:inputstream=inputstream.adaptive
+https://aseanic.github.io/hls/220.m3u8
