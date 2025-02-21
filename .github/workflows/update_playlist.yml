@@ -1,0 +1,87 @@
+name: Update Playlist URLs
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours
+  workflow_dispatch:      # Allows manual trigger
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main repository
+        uses: actions/checkout@v3
+        with:
+          path: main-repo
+
+      - name: Checkout aseanic repository
+        uses: actions/checkout@v3
+        with:
+          repository: aseanic/hls
+          path: aseanic-repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Create update script
+        run: |
+          cat > update_playlist.py << 'EOF'
+          import re
+          import os
+
+          def extract_m3u8_url(file_path):
+              try:
+                  with open(file_path, 'r') as file:
+                      content = file.read()
+                      url_pattern = r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
+                      urls = re.findall(url_pattern, content)
+                      return urls[-1] if urls else None
+              except:
+                  return None
+
+          def update_playlist():
+              # Read the playlist file
+              with open('main-repo/play.m3u', 'r') as file:
+                  playlist_content = file.readlines()
+
+              updated_content = []
+              current_m3u8 = None
+
+              for line in playlist_content:
+                  if 'aseanic.github.io/hls/' in line:
+                      # Extract m3u8 file number
+                      m3u8_number = line.strip().split('/')[-1].split('.')[0]
+                      aseanic_file = f'aseanic-repo/{m3u8_number}.m3u8'
+                      
+                      if os.path.exists(aseanic_file):
+                          new_url = extract_m3u8_url(aseanic_file)
+                          if new_url:
+                              # Keep the original line as a comment
+                              updated_content.append(f'# Original: {line.strip()}\n')
+                              updated_content.append(f'{new_url}\n')
+                          else:
+                              updated_content.append(line)
+                      else:
+                          updated_content.append(line)
+                  else:
+                      updated_content.append(line)
+
+              # Write the updated content back to the file
+              with open('main-repo/play.m3u', 'w') as file:
+                  file.writelines(updated_content)
+
+          if __name__ == '__main__':
+              update_playlist()
+          EOF
+
+      - name: Update playlist
+        run: python update_playlist.py
+
+      - name: Commit and push changes
+        run: |
+          cd main-repo
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add play.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update playlist URLs" && git push)
