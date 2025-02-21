@@ -47,8 +47,17 @@ jobs:
 
               updated_content = []
               changes_made = False
-
-              for line in playlist_content:
+              skip_next_line = False
+              
+              for i, line in enumerate(playlist_content):
+                  if skip_next_line:
+                      skip_next_line = False
+                      continue
+                      
+                  # If this is already an "Original" comment, skip this iteration
+                  if line.strip().startswith('# Original:'):
+                      continue
+                      
                   if 'aseanic.github.io/hls/' in line:
                       # Extract m3u8 file number
                       m3u8_number = line.strip().split('/')[-1].split('.')[0]
@@ -61,6 +70,9 @@ jobs:
                               updated_content.append(f'# Original: {line.strip()}\n')
                               updated_content.append(f'{new_url}\n')
                               changes_made = True
+                              # Skip the next line if it's a URL (to prevent duplication)
+                              if i + 1 < len(playlist_content) and playlist_content[i + 1].strip().startswith('http'):
+                                  skip_next_line = True
                           else:
                               updated_content.append(line)
                       else:
